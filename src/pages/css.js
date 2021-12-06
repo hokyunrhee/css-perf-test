@@ -5,7 +5,7 @@ const NUMBER_OF_ELEMENTS = process.env.NEXT_PUBLIC_NUMBER_OF_ELEMENTS;
 const NormalDiv = (props) => <div {...props} />;
 
 export default function Css() {
-  const [_, setCount] = useState(0);
+  const [, setCount] = useState(0);
 
   return (
     <React.Fragment>

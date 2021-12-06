@@ -7,7 +7,7 @@ const StyledDiv = styled.div``;
 const StyledButton = styled.button``;
 
 export default function CssInJs() {
-  const [_, setCount] = useState(0);
+  const [, setCount] = useState(0);
 
   return (
     <React.Fragment>
